@@ -1,0 +1,53 @@
+{
+    "title": "A Gopher",
+    "description": "Become a gopher!",
+    "author": "haishengliu<liuhaisheng08@gmail.com>",
+    "language": "zh-hans",
+    "root": ".",
+    "links": {
+        "sidebar": {
+            "我的主页": "https://github.com/liuhaisheng08"
+        }
+    },
+    "plugins": [
+        "-sharing",
+        "-lunr", 
+        "-search", 
+        "sharing-plus",
+        "splitter",
+        "search-pro",
+        "code",
+        "copy-code-button",
+        "expandable-chapters-small",
+        "back-to-top-button",
+        "search-pro",
+        "tbfed-pagefooter",
+        "hide-element",
+        "pageview-count",
+        "popup"
+    ],
+    "pluginsConfig": {
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": true,
+            "pocket": false,
+            "qq": false,
+            "qzone": true,
+            "twitter": false,
+            "weibo": true,
+         "all": [
+              "douban", "facebook", "google", "instapaper", "linkedin","twitter", "weibo", 
+              "messenger","qq", "qzone","viber","whatsapp"
+          ]
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy haishengliu 2000-2020",
+            "modify_label": "update_at：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        }
+    }
+}
